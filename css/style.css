@@ -1,0 +1,411 @@
+h2 {
+ text-align: center;
+ margin: 80px 0;
+ border-bottom: 1px solid #cccaca
+}
+
+h3 {
+ text-align: center;
+ margin-bottom: 20px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+ font-weight: bold;
+ text-transform: uppercase;
+ display: inline-block;
+ font-family: 'Oswald', sans-serif
+}
+
+h1 {
+ color: #347dfb
+}
+
+html,
+body,
+header,
+.view {
+ height: 100%;
+ font-family: 'Roboto Condensed', sans-serif
+}
+
+.navbar {
+ background-color: transparent;
+ text-transform: uppercase;
+ text-align: center;
+
+}
+
+
+.navbar-brand {
+ background-color: transparent;
+ text-transform: uppercase;
+ text-align: left;
+
+}
+
+.navbar ul li{
+text-align: center;
+ border:1px solid rgba(255, 255, 255, 0);
+ transition-duration: 120ms;
+ padding:0 20px;
+}
+
+
+
+.navbar ul li:hover{
+
+ border:1px solid #fff;
+ transition-duration: 1200ms;
+}
+
+.top-nav-collapse {
+ background-color: rgba(24, 24, 25, 0.88)
+}
+
+@media only screen and (max-width:768px) {
+ .navbar {
+  background-color: rgba(24, 24, 25, 0.73)
+ }
+}
+
+.view {
+ background: url("../img/tlo.jpg")no-repeat center center fixed;
+ background-size: cover;
+ 
+ text-shadow: 1px 1px rgba(0, 0, 0, 0.87)
+}
+
+@media(max-width:768px) {
+ .full-bg-img,
+ .view {
+  height: auto;
+  position: relative
+ }
+}
+
+@media(max-width:768px) {
+ #home img {
+  display: none
+ }
+}
+
+@media(max-width:768px) {
+ header {
+  height: 300px
+ }
+}
+
+.description {
+ padding-top: 25%;
+ padding-bottom: 3rem;
+ color: #fff
+}
+
+@media(max-width:992px) {
+ .description {
+  padding-top: 7rem;
+  text-align: center
+ }
+ #app-mockup {
+  max-height: 400px
+ }
+}
+
+.nav-item .tel {
+ color: white;
+ padding: 6px;
+ font-weight: bold
+}
+
+#start {
+ margin: 60px 0;
+ text-align: center
+}
+
+#start .fa {
+ color: #347dfb;
+ font-size: 70px;
+ margin-bottom: 40px;
+ text-align: center;
+ display: block
+}
+
+#start .fa:hover {
+ transition-duration: 120ms;
+ color: #222
+}
+
+#start h3 {
+ font-size: 19px;
+ font-weight: bold;
+ text-align: center;
+ margin-bottom: 5px;
+ text-transform: uppercase
+}
+
+.parallax {
+ font-size: 14px;
+ color: #e0e0e0;
+ background-image: url(../img/tlo1.jpg);
+ min-height: 100px;
+ width: 100%;
+ box-shadow: 1px 1px #4e4a4a;
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover
+}
+
+.parallax h2 {
+ border-bottom: 0;
+ text-align: left;
+ padding: 0;
+ margin-bottom: 17px;
+ margin: 0;
+ margin-bottom: 20px;
+ color: #347dfb
+}
+
+.parallax p {
+ font-size: 17px
+}
+
+#gwiazdki {
+ text-align: center;
+ color: #d9ff00;
+ font-size: 60px
+}
+
+#gwiazdki .fa {
+ font-size: 50px;
+ margin: 0 auto;
+ padding: 0
+}
+
+#gwiazdki p {
+ font-size: 20px;
+ color: #daff00
+}
+
+#gwiazdki .btn {
+ -webkit-border-radius: 7;
+ -moz-border-radius: 7;
+ border-radius: 7px;
+ color: #fff;
+ font-size: 15px;
+ background: #b2bf00;
+ padding: 10px 20px 10px 20px;
+ text-decoration: none;
+ margin: 0 auto;
+ width: 150px;
+ margin-top: -15px
+}
+
+#gwiazdki .btn:hover {
+ background: #d6d603;
+ text-decoration: none;
+ cursor: pointer
+}
+
+#oferta {
+ text-align: center
+}
+
+#oferta .col-md-4 {
+ text-align: center;
+ background-color: #dddbdb;
+ border-radius: 60px;
+ border: 40px solid #fff;
+ padding: 20px;
+ height: 430px;
+}
+
+#oferta .fa {
+ margin-top: 10px;
+ color: #fff;
+ font-size: 50px
+}
+
+#oferta h3 {
+ font-size: 18px
+}
+
+.kolo {
+ background-color: #347dfb;
+ width: 75px;
+ height: 75px;
+ border-radius: 75px;
+ margin: 25px auto;
+ transition-duration: 2500ms;
+ margin-bottom: 40px
+}
+
+#oferta p {
+ font-size: 13px
+}
+
+#oferta .col-md-4:hover {
+ background-color: #d3d3d3;
+ transform: scale(1.03, 1.05);
+ transition-duration: 250ms;
+ color: black;
+}
+
+#telefon {
+ position: fixed;
+ background-color: #347dfb;
+ color: #fff;
+ font-size: 30px;
+ right: 50px;
+ bottom: 10%;
+ padding: 0 12px;
+ border-radius: 510px;
+ box-shadow: 0 7px 1px -1px #2a62c3
+}
+
+#telefon:hover {
+ cursor: pointer;
+ background-color: #222;
+ box-shadow: 0 7px 1px -1px #151515
+}
+
+#telefon:active {
+ box-shadow: 0 0 0 0 #000;
+ transition-duration: 150ms;
+ bottom: 9%
+}
+
+.popover.bs-tether-element-attached-right::after,
+.popover.popover-left::after {
+ border-left-color: #222
+}
+
+.popover.bs-tether-element-attached-right,
+.popover.popover-left {
+ background-color: #222;
+ color: #fff;
+ text-shadow: 1px 1px rgba(0, 0, 0, 0.2)
+}
+
+.btn {
+ background-color: #347dfb
+}
+
+.btn:hover {
+ background-color: #222
+}
+
+#kontakt {
+ text-align: center
+}
+
+#kontakt {
+ font-size: 20px;
+ margin-top: 50px;
+ font-weight: bold;
+ background: url("../img/img2.jpg")no-repeat center center fixed;
+ background-size: cover;
+ text-shadow: 1px 1px rgba(0, 0, 0, 0.87);
+ color: #fff
+}
+
+label {
+ text-align: center
+}
+
+input[type=date],
+input[type=datetime-local],
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=search-md],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+textarea.md-textarea {
+ background-color: #fffcfc;
+ border: 0;
+ border-bottom: 1px solid #347dfb
+}
+
+.md-form label {
+ margin: 0 auto;
+ color: #131314;
+ text-shadow: none
+}
+
+.text-xs-center {
+ color: #347dfb
+}
+
+.margin {
+ margin-bottom: 120px
+}
+
+.md-form label {
+ color: #ddd8d8
+}
+
+.form-control:focus {
+ color: #ddd8d8
+}
+
+.form-control:focus {
+ background-color: #fff;
+ color: #1d1d1d
+}
+
+.text-xs-center .btn {
+ width: 100%
+}
+
+.btn:hover {
+ background-color: #222
+}
+
+.tel .fa {
+ margin-right: 4px
+}
+
+.card-block .fa {
+ margin-right: 4px
+}
+
+.card-block {
+ margin: 0 auto;
+ max-width: 60%
+}
+
+footer {
+ font-weight: 400
+}
+
+#o-mnie {
+ margin-top: 120px
+}
+
+#blad {
+ color: white;
+ text-align: center;
+ font-size: 24px
+}
+
+#blad .btn {
+ margin: 0 auto;
+ margin-top: 20px
+}
+
+#o-mnie .description {
+ margin-top: 0px;
+ padding: 0;
+}
+
+.md-form label {
+ color: #676666;
+}
